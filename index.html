@@ -30,26 +30,46 @@
 	
 	<div class="container mb-4">
 		<div class="row">
-			<div class="col-md-9">
+			<div class="col-sm-12 col-lg-9">
 				<div id="hero" class="carousel slide" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#hero" data-bs-slide-to="0" class="active"></button>
 						<button type="button" data-bs-target="#hero" data-bs-slide-to="1"></button>
+						<button type="button" data-bs-target="#hero" data-bs-slide-to="2"></button>
 					</div> <!-- .carousel-indicators -->
 
+					 <!-- The slideshow/carousel -->
 					<div class="carousel-inner">
-						<div class="carousel-inner">
-							<div class="carousel-item active">
-								<img src="./images/banner1.png" alt="colorful breakfast" class="d-block w-100 rounded">
-							</div>
+						<div class="carousel-item active">
+							<img src="./images/find-joy-in-everyday-stories.webp" alt="A cozy flat lay photo of a journal with handwritten notes, a cup of coffee, and fresh flowers on a wooden table" class="d-block w-100">
+							<div class="carousel-caption text-bg-light">
+								<h3>Find joy in everyday stories.</h3>
+								<p>Discover simple guides on food, travel, fashion, and wellness to brighten your day.</p>
+							</div> 
 						</div>
-					</div> <!-- carousel-inner -->
+
+						<div class="carousel-item">
+							<img src="./images/a-colorful-life-starts-with-small-adventures.webp" alt="a person walking along a scenic nature trail or small road, wearing a vibrant backpack" class="d-block w-100">
+							<div class="carousel-caption  text-bg-light">
+								<h3>A colorful life starts with small adventures.</h3>
+								<p>Explore ideas to savor your meals, plan mindful trips, and curate your personal style.</p>
+							</div> 
+						</div>
+
+						<div class="carousel-item">
+							<img src="./images/your-daily-dose-of-simple-tips-and-lovely-things.webp" alt="a bright, clean kitchen countertop scene with fresh fruits, a smoothie bowl, and a cup of tea, styled in a natural flat lay composition" class="d-block w-100">
+							<div class="carousel-caption text-bg-light">
+								<h3>Your daily dose of simple tips and lovely things.</h3>
+								<p>From cozy recipes to wellness routines, we bring you feel-good reads to start your day.</p>
+							</div> 
+						</div>
+					</div>
 
 					<!-- Left and right controls/icons -->
-					<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+					<button class="carousel-control-prev" type="button" data-bs-target="#hero" data-bs-slide="prev">
 						<span class="carousel-control-prev-icon"></span>
 					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+					<button class="carousel-control-next" type="button" data-bs-target="#hero" data-bs-slide="next">
 						<span class="carousel-control-next-icon"></span>
 					</button>
 
@@ -70,7 +90,6 @@
 
 									<a href="#" class="text-dark">Read more ></a>
 								</div>
-								
 							</div>
 						</div> <!-- col -->
 						<div class="col-lg-6 col-xl-4">
@@ -103,8 +122,8 @@
 				</div> <!-- #recent_posts -->
 			</div> <!-- col-md-9 -->
 
-			<div class="col-md-3 p-4 my-4">
-				<div id="trending_tags">
+			<div class="col-sm-12 col-lg-3 p-4 my-4">
+				<div id="trending_tags" class="my-sm-4 text-sm-center py-sm-4 py-lg-2">
 					<h3>Trending Tags</h3>
 					<div class="d-flex flex-wrap justify-content-center">
 						<span class="badge bg-primary m-1">Exercise</span>
@@ -115,18 +134,18 @@
 						<span class="badge bg-primary m-1">Japan</span>
 						<span class="badge bg-primary m-1">Thailand</span>
 					</div>
-				</div> <!-- #trending_tagg -->
+				</div> <!-- #trending_tags -->
 
-				<div id="newsletter" class="my-4">
+				<div id="newsletter" class="my-4 py-sm-4 py-lg-2 text-sm-center">
 					<h3 class="mt-2">Newsletter Signup</h3>
 
 					<form class="mt-3">
 						<input type="text" class="form-control" placeholder="Email address">
-						<button class="btn btn-secondary mt-2">Subscribe</button>
+						<button class="btn btn-secondary mt-3">Subscribe</button>
 					</form>
 				</div>
 
-				<div id="contact" class="mt-4">
+				<div id="contact" class="mt-4 text-sm-center py-sm-4 py-lg-2">
 					<h3>Contact</h3>
 					<a href="#" class="text-dark">admin@daylightjournal.com</a>
 				</div>

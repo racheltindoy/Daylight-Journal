@@ -1,1 +1,12 @@
 #main_logo {width: 100%; max-width: 250px;}
+
+
+@media screen and (max-width: 1200px) {
+	#recent_posts > .row > .col-lg-6 {
+		margin: 20px 0 !important;
+	}
+
+	#recent_posts > .row .col-lg-6:first-child {
+		margin-top: 0 !important;
+	}
+}
