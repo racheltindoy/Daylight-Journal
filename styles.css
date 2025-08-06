@@ -10,3 +10,17 @@
 		margin-top: 0 !important;
 	}
 }
+
+.social_media {
+	width: 100%;
+	max-width: 120px;;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social_media a img {
+	width: 100%;
+	max-width: 30px;
+}
